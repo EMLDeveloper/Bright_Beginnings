@@ -108,6 +108,8 @@
               </div>
             </div>
             <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+            <!-- add this to your header -->
+            <div id="google_translate_element"></div>
           </div>
         </div>
       </nav>
@@ -538,6 +540,21 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+
+    <!-- to your js part -->
+    <script src="script.js"></script>
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement(
+          { pageLanguage: "en" },
+          "google_translate_element"
+        );
+      }
+    </script>
+    <script
+      type="text/javascript"
+      src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
+    ></script>
 
     <script>
       document
